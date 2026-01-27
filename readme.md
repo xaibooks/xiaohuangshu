@@ -42,3 +42,8 @@ Minimal native → JS call test
 1. Android native module (Kotlin, minimal):     File: android/app/src/main/java/com/xiaohuangshu/DocumentModule.kt
 2. Register module      File: android/app/src/main/java/com/xiaohuangshu/PackageList.kt (or MainApplication.kt)
 3. JS bridge            File: src/native/DocumentModule.ts
+
+Trigger codegen via Gradle
+./gradlew :app:generateCodegenArtifactsFromSchema
+
+
